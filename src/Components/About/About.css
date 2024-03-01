@@ -93,4 +93,18 @@
   .aboutCard img {
     width: 100%;
   }
+  .secondary-btn {
+    background-color: #31b675;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+
+  .secondary-btn:hover {
+    background-color: #218c56;
+  }
 }

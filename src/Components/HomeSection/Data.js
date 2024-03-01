@@ -1,12 +1,12 @@
 const Data = [
   {
-    image: "images/slider-1.jpg",
+    image: "images/heroCarouselImages/hero-carousel-img-1.jpeg",
   },
   {
-    image: "images/slider-2.jpg",
+    image: "images/heroCarouselImages/hero-carousel-img-2.jpeg",
   },
   {
     image: "images/slider-3.jpg",
   },
-]
-export default Data
+];
+export default Data;

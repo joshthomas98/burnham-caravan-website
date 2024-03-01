@@ -23,6 +23,10 @@ const AboutCard = () => {
             strive to exceed your expectations and ensure that every moment of
             your stay is nothing short of extraordinary.
           </p>
+
+          <a href="/about">
+            <button className="secondary-btn">Find Out More</button>
+          </a>
         </div>
         <div className="row image">
           <img src="/images/feature-img-1.jpg" alt="" />

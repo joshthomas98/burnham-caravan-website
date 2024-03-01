@@ -8,7 +8,7 @@ const PopularData = [
   {
     id: 2,
     image: "images/popular5.jpg",
-    packageName: "Long Weekend Break (Fri-Mon)",
+    packageName: "Our Long Weekend Break (Fri-Mon)",
     total_price: "£400.00",
   },
   {

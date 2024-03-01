@@ -33,9 +33,6 @@ const About = () => {
               we're dedicated to ensuring your stay with us is truly
               unforgettable.
             </p>
-            <button className="secondary-btn">
-              Explore More <i className="fas fa-long-arrow-alt-right"></i>
-            </button>
           </div>
           <div className="row image justify-content-center align-items-center">
             <img src="/images/feature-img-1.jpg" alt="" />
