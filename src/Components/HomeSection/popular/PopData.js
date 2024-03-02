@@ -8,21 +8,19 @@ const PopularData = [
   {
     id: 2,
     image: "images/popular5.jpg",
-    packageName: "Our Long Weekend Break (Fri-Mon)",
+    packageName: "Long Weekend Break (Fri-Mon)",
     total_price: "£400.00",
   },
   {
     id: 3,
     image: "images/popular3.jpg",
-    packageName: "Half-Term Coastal Getaway (5 Nights)",
+    packageName: "Coastal Getaway (5 Nights)",
     total_price: "£800.00",
   },
   {
     id: 4,
     image: "images/popular4.jpg",
-    country: "United Kingdom",
-    name: "Winter Escape by the Sea",
-    packageName: "Winter Escape by the Sea (Jan-Mar)",
+    packageName: "Winter by the Sea (Jan-Mar)",
     total_price: "£350.00",
   },
   {

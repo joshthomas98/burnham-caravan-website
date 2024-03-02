@@ -25,25 +25,9 @@
 .aboutCard .control-btn i {
   font-size: 20px;
 }
-.aboutCard .image::after {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 89.5%;
-  height: 44vh;
-  background-color: rgba(0, 0, 0, 0.5);
-}
+.aboutCard .image::after,
 .aboutCard .image::before {
-  content: "";
-  position: absolute;
-  bottom: 5%;
-  left: 10%;
-  background-color: rgba(0, 0, 0, 0.7);
-  width: 70%;
-  height: 30px;
-  border-radius: 5px;
-  z-index: -1;
+  display: none;
 }
 .aboutCard .control-btn::before {
   content: "";

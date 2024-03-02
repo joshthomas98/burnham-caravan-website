@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import EmptyFile from "../Common/Empty/EmptyFile";
 import { useParams } from "react-router-dom";
-import HeadTitle from "../Common/HeadTitle/HeadTitle";
 import "./singlepage.css";
 
 const SinglePage = () => {
@@ -10,8 +9,6 @@ const SinglePage = () => {
 
   return (
     <>
-      <HeadTitle />
-
       {item ? (
         <section className="single-page top">
           <div className="container">
