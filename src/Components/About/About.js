@@ -13,6 +13,10 @@ const About = () => {
 
       <section className="features top">
         <div className="container aboutCard flex_space">
+          <div className="row image justify-content-center align-items-center">
+            <img src="/images/feature-img-1.jpg" alt="" />
+          </div>
+
           <div className="row row1">
             <h1>What Sets Us Apart</h1>
             <p>
@@ -30,14 +34,6 @@ const About = () => {
               we're dedicated to ensuring your stay with us is truly
               unforgettable.
             </p>
-          </div>
-          <div className="row image justify-content-center align-items-center">
-            <img src="/images/feature-img-1.jpg" alt="" />
-            <div className="control-btn">
-              <button className="prev">
-                <i className="fas fa-play"></i>
-              </button>
-            </div>
           </div>
         </div>
       </section>

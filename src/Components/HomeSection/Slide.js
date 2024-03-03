@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Data from "./Data";
+import { Container, Form, Button } from "react-bootstrap";
 
 const Home = ({ slides }) => {
   const [current, setCurrent] = useState(0);
@@ -42,21 +43,31 @@ const Home = ({ slides }) => {
       </section>
 
       <section className="slide-form">
-        <div className="container">
-          <h2>Want To Book A Stay With Us?</h2>
-          <span> Search and Find Availability</span>
+        <div className="form-container text-black">
+          <Container>
+            <h2 className="pt-1 text-center">Want To Book A Stay With Us?</h2>
+            <div className="text-center pb-2">
+              <span>Search and Find Availability</span>
+            </div>
 
-          <form>
-            <div className="flex_space">
-              <input type="date" placeholder="Check In" />
-              <input type="date" placeholder="Check Out" />
-            </div>
-            <div className="flex_space">
-              <input type="number" placeholder="Adult(s)(18+)" />
-              <input type="number" placeholder="Children(0- 17)" />
-            </div>
-            <input type="Submit" value="Search" className="submit" />
-          </form>
+            <Form className="text-center">
+              <div className="d-inline-block mb-2 mx-2">
+                <Form.Control type="date" placeholder="Check In" />
+              </div>
+              <div className="d-inline-block mb-2 mx-2">
+                <Form.Control type="date" placeholder="Check Out" />
+              </div>
+              <div className="d-inline-block mb-2 mx-2">
+                <Form.Control type="number" placeholder="Adult(s)(18+)" />
+              </div>
+              <div className="d-inline-block mb-2 mx-2">
+                <Form.Control type="number" placeholder="Children(0-17)" />
+              </div>
+              <Button type="submit" className="submit btn-success mb-2 mx-2">
+                Search
+              </Button>
+            </Form>
+          </Container>
         </div>
       </section>
     </>
