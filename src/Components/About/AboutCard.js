@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import "./About.css";
 
 const AboutCard = () => {
@@ -27,6 +27,15 @@ const AboutCard = () => {
                 and ensure that every moment of your stay is nothing short of
                 extraordinary.
               </p>
+
+              <a href="/about">
+                <Button
+                  className="btn"
+                  style={{ backgroundColor: "#31b675", borderColor: "#31b675" }}
+                >
+                  Find out more
+                </Button>
+              </a>
             </div>
           </Col>
 

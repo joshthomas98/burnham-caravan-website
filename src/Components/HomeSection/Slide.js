@@ -63,7 +63,11 @@ const Home = ({ slides }) => {
               <div className="d-inline-block mb-2 mx-2">
                 <Form.Control type="number" placeholder="Children(0-17)" />
               </div>
-              <Button type="submit" className="submit btn-success mb-2 mx-2">
+              <Button
+                type="submit"
+                className="submit mb-1"
+                style={{ backgroundColor: "#31b675", borderColor: "#31b675" }}
+              >
                 Search
               </Button>
             </Form>

@@ -10,23 +10,14 @@ const Footer = () => {
           <h2>About [Caravan Rental Name]</h2>
           <p>
             Welcome to [Caravan Rental Name], your premier destination for
-            unforgettable static caravan experiences in Burnham-On-Sea! At
-            [Caravan Rental Name], we are passionate about providing exceptional
-            accommodations and creating memorable vacation experiences for our
-            guests.
+            static caravan rentals in Burnham-On-Sea! We offer comfortable and
+            memorable stays for your seaside getaway. Explore the beauty of
+            Burnham-On-Sea from the comfort of our caravans.
           </p>
-          <div className="icon flex_space">
-            <i className="fab fa-facebook-f"></i>
-            <i className="fab fa-twitter"></i>
-            <i className="fab fa-linkedin"></i>
-            <i className="fab fa-instagram"></i>
-            <i className="fab fa-pinterest"></i>
-            <i className="fab fa-youtube"></i>
-          </div>
         </div>
 
         <div className="box">
-          <h2>Navigation</h2>
+          <h2>Quick Links</h2>
           <ul>
             <li>
               <Link to="/">Home</Link>
@@ -41,50 +32,39 @@ const Footer = () => {
               <Link to="/destinations">Destinations</Link>
             </li>
             <li>
-              <Link to="/blog">Blog</Link>
-            </li>
-            <li>
-              <Link to="/testimonial">Testimonial</Link>
-            </li>
-            <li>
               <Link to="/contact">Contact Us</Link>
             </li>
           </ul>
         </div>
 
-        <div className="box post">
-          <h2>Recent Posts</h2>
-          <ul>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <label className="fa fa-calendar-alt"></label>
-              <span>01 Oct 2020</span>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <label className="fa fa-calendar-alt"></label>
-              <span>01 Oct 2020</span>
-            </li>
-            <li>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-              <label className="fa fa-calendar-alt"></label>
-              <span>01 Oct 2020</span>
-            </li>
-          </ul>
+        <div className="box">
+          <h2>Contact Us</h2>
+          <p>
+            [Caravan Rental Name]
+            <br />
+            Address: [Your Address], Burnham-On-Sea
+            <br />
+            Phone: [Your Phone Number]
+            <br />
+            Email: [Your Email Address]
+          </p>
         </div>
 
         <div className="box">
-          <h2>Newsletter</h2>
+          <h2>Subscribe to Our Newsletter</h2>
           <p>
-            Subscribe to our newsletter for the latest updates and promotions.
+            Stay updated with our latest offers and news by subscribing to our
+            newsletter.
           </p>
-
-          <input type="text" name="" id="" />
-          <input type="text" className="primary-btn" value="SUBSCRIBE" />
+          <input type="text" placeholder="Enter your email" />
+          <button className="primary-btn">Subscribe</button>
         </div>
       </div>
       <div className="legal">
-        <p>© 2022 [Caravan Rental Name]. All Rights Reserved.</p>
+        <p>
+          © {new Date().getFullYear()} [Caravan Rental Name]. All Rights
+          Reserved.
+        </p>
       </div>
     </footer>
   );

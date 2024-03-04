@@ -1,70 +1,79 @@
 footer {
   background-color: #000;
   color: white;
-  margin-top: 50px;
   padding: 50px 0;
 }
-footer .grid {
-  grid-template-columns: repeat(4, 1fr);
+
+.container.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding-bottom: 25px;
 }
-footer h2 {
+
+.box {
+  padding: 0 20px; /* Adjust padding as needed */
+}
+
+footer .box h2 {
   margin-bottom: 20px;
   letter-spacing: 2px;
 }
-footer p {
-  font-size: 13px;
-  opacity: 0.6;
-  font-weight: 300;
-  letter-spacing: 1px;
+
+footer .box p {
+  font-size: 14px;
+  opacity: 0.8;
+  line-height: 1.6;
 }
-footer .icon i {
-  color: black;
+
+footer .box ul {
+  list-style: none;
+  padding: 0;
 }
-footer ul li a {
-  opacity: 0.7;
-  color: white;
-  font-size: 13px;
-}
-footer ul li {
+
+footer .box ul li {
   margin-bottom: 10px;
 }
-footer .post li {
-  margin-bottom: 20px;
-  border-bottom: 1px solid rgb(63, 62, 62);
+
+footer .box ul li a {
+  color: white;
+  opacity: 0.8;
+  text-decoration: none;
 }
-footer .post li:nth-last-child(1) {
-  border-bottom: none;
+
+footer .box ul li a:hover {
+  opacity: 1;
 }
-footer .post label,
-footer .post span {
-  opacity: 0.5;
-  margin-right: 10px;
-  font-size: 13px;
-  margin-bottom: 20px;
-}
-footer input {
-  background: none;
-  border: 1px solid rgb(63, 62, 62);
+
+footer .box input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #666;
   border-radius: 5px;
-  margin: 10px 0;
+  margin-bottom: 10px;
 }
-footer .primary-btn {
-  padding: 20px 20px;
-  border-radius: 0px;
-  text-align: center;
+
+footer .box button.primary-btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
-.legal {
+
+footer .box button.primary-btn:hover {
+  background-color: #0056b3;
+}
+
+footer .legal {
   text-align: center;
   padding: 20px;
   background-color: #000;
-  border-top: 1px solid rgb(63, 62, 62);
+  border-top: 1px solid #666;
   color: white;
-}
-.legal p {
-  opacity: 0.5;
-}
-@media screen and (max-width: 768px) {
-  footer .grid {
-    grid-template-columns: repeat(2, 1fr);
-  }
+  font-size: 12px;
+  opacity: 0.8;
 }
