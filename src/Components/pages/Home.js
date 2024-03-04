@@ -4,8 +4,7 @@ import Hero from "../HomeSection/Hero";
 import HomeAbout from "../HomeSection/HomeAbout";
 import MostPopular from "../HomeSection/popular/MostPopular";
 import DiscoverOurCaravan from "../HomeSection/DiscoverOurCaravan/DiscoverOurCaravan";
-import Works from "../HomeSection/Works/Works";
-import Gallery from "../HomeSection/gallery/Gallery";
+import Explore from "../HomeSection/Explore/Explore";
 
 const Home = () => {
   return (
@@ -14,8 +13,7 @@ const Home = () => {
       <HomeAbout />
       <MostPopular />
       <DiscoverOurCaravan />
-      <Works />
-      <Gallery />
+      <Explore />
     </>
   );
 };

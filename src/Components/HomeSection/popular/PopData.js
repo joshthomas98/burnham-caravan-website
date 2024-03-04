@@ -2,7 +2,7 @@ const PopularData = [
   {
     id: 1,
     image: "images/popular1.jpg",
-    packageName: "Weekend Seaside Escape (Fri-Sun)",
+    packageName: "Weekend Escape (Fri-Sun)",
     total_price: "£250.00",
   },
   {

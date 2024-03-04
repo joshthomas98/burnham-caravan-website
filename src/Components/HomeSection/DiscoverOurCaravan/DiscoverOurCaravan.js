@@ -7,7 +7,7 @@ const DiscoverOurCaravan = () => {
     <div className="caravan-features">
       <Container>
         <Row>
-          <Col xs={12} lg={6}>
+          <Col xs={12} lg={7}>
             <h2>Discover Our Caravan</h2>
 
             <p>
@@ -57,7 +57,7 @@ const DiscoverOurCaravan = () => {
 
           <Col
             xs={12}
-            lg={6}
+            lg={5}
             className="d-flex align-items-center pt-sm-4 pt-md-4"
           >
             <img src="images/gallery-6.jpg" alt="" className="img-fluid" />
