@@ -12,7 +12,7 @@ const About = () => {
         </Container>
       </section>
 
-      <section className="features top">
+      <section className="features top pb-5">
         <Container>
           <Row className="aboutCard flex_space">
             <Col

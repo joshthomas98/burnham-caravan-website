@@ -6,7 +6,7 @@ const Data = [
     image: "images/heroCarouselImages/hero-carousel-img-2.jpeg",
   },
   {
-    image: "images/slider-3.jpg",
+    image: "images/heroCarouselImages/hero-carousel-img-3.jpeg",
   },
 ];
 export default Data;
