@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Button } from "react-bootstrap";
 import "./Footer.css";
 
 const Footer = () => {
@@ -57,7 +58,12 @@ const Footer = () => {
             newsletter.
           </p>
           <input type="text" placeholder="Enter your email" />
-          <button className="primary-btn">Subscribe</button>
+          <Button
+            className="primary-btn"
+            style={{ backgroundColor: "#31b675" }}
+          >
+            Subscribe
+          </Button>
         </div>
       </div>
       <div className="legal">
