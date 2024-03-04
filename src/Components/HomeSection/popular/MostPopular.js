@@ -5,7 +5,7 @@ import "./MostPopular.css";
 const MostPopular = () => {
   return (
     <>
-      <section className="popular top">
+      <section className="popular top pb-4">
         <div className="full_container">
           <div className="heading">
             <h1>Most Popular Stays</h1>

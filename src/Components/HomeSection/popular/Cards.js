@@ -36,11 +36,24 @@ const Cards = () => {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 900,
+        breakpoint: 1200,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 2,
+        },
+      },
+      {
+        breakpoint: 768,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          initialSlide: 2,
+        },
+      },
+      {
+        breakpoint: 576,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
         },
       },
     ],
@@ -48,26 +61,22 @@ const Cards = () => {
   return (
     <>
       <Slider {...settings}>
-        {PopularData.map((value) => {
-          return (
-            <>
-              <div className="cards">
-                <div className="item">
-                  <div className="imgae">
-                    <img src={value.image} alt="" />
-                  </div>
-                  <div className="details">
-                    <h2>{value.packageName}</h2>
-                    <div className="boarder"></div>
-                    <h3>
-                      {value.total_price} / <span>Total price</span>
-                    </h3>
-                  </div>
-                </div>
+        {PopularData.map((value, index) => (
+          <div className="cards" key={index}>
+            <div className="item">
+              <div className="imgae">
+                <img src={value.image} alt="" />
               </div>
-            </>
-          );
-        })}
+              <div className="details">
+                <h2>{value.packageName}</h2>
+                <div className="boarder"></div>
+                <h3>
+                  {value.total_price} / <span>Total price</span>
+                </h3>
+              </div>
+            </div>
+          </div>
+        ))}
       </Slider>
     </>
   );
