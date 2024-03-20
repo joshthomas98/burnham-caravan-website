@@ -10,11 +10,13 @@ import SinglePage from "./SinglePage/SinglePage";
 import Testimonial from "./Components/Testimonial/Testimonial";
 import Contact from "./Components/Contact/Contact";
 import Footer from "./Common/footer/Footer";
+import ScrollToTop from "./Components/ScrollToTop";
 
 function App() {
   return (
     <>
       <Router>
+        <ScrollToTop />
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
