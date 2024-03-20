@@ -53,7 +53,7 @@ const Navigation = () => {
                 <i className="fas fa-phone-volume fa-2x mx-2"></i>
                 <div>
                   <h4 className="mb-1">Call Us</h4>
-                  <p className="mb-0">+011 123 456</p>
+                  <p className="mb-0">+011 123 4567</p>
                 </div>
               </div>
             </div>
